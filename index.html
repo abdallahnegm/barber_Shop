@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Barber_Shop</title>
+</head>
+<body>
+    <div class="sidebar">
+        <nav id="sidebar">
+            <div id="dismiss" >
+                <i class="fa fa-arrow-left"></i>
+            </div>
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#serv">Service</a>
+                </li>
+                <li>
+                    <a href="#pricing">Pricing</a>
+                </li>
+                <li>
+                    <a href="#cont">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
+        <div class="menu">
+        <ul class="list">
+            <li class="phone hidden"><i class="fa-solid fa-phone-volume fa-xl"></i> 01065759651</li>
+            <li class="mail hidden"><i class="fa-solid fa-envelope fa-xl"></i> abdallahnegm5@gmail.com</li>
+            <li class="search hidden"><i class="fa-solid fa-magnifying-glass fa-2x"></i></li>
+            <li class="book hidden"><button>Book Now</button></li>
+            <li class="menuu" onclick="left()"><button type="button" id="sidebarCollapse">
+                <a href="#">MENU</a>
+            </button>
+        </li>
+        </ul>
+        </div>
+    </div>
+    <!-- start landing  -->
+    <div class="land">
+        <div class="container">
+            <div class="text">
+                <span>Stylish Hair</span>
+                    <h1>Cutting<br> 
+                    for New Look</h1>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <!-- end landing  -->
+    <!-- start about  -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="left">
+                <h3>Welcome to Our Shop</h3>
+                <h1>About<span> Our Salon</span></h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                    as opposed to using 'Content here, content here', making it look like readable English. Many deskt op
+                    publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for
+                    'lorem ipsum' will uncover many web sites still in their</p>
+                    <a href="">Read More</a>
+            </div>
+            <div class="right">
+                <img src="images/about_img.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end about  -->
+    <!-- service -->
+    <div id="serv" class="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="ourheading">
+                        <h2>Our<strong class="white_ll"> service</strong></h2>
+                        <span> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis n</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                        <div class="service_box">
+                                            <figure><img src="images/ser1.png"></figure>
+                                            <h3>Clean Shave</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                        <div class="service_box">
+                                            <figure><img src="images/ser.png"></figure>
+                                            <h3> Haircut Styles</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                        <div class="service_box">
+                                            <figure><img src="images/ser3.png"></figure>
+                                            <h3>Face Masking</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                        <div class="service_box">
+                                            <figure><img src="images/ser1.png"></figure>
+                                            <h3>Clean Shave</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                        <div class="service_box">
+                                            <figure><img src="images/ser.png"></figure>
+                                            <h3> Haircut Styles</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                        <div class="service_box">
+                                            <figure><img src="images/ser3.png"></figure>
+                                            <h3>Face Masking</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                        <div class="service_box">
+                                            <figure><img src="images/ser1.png"></figure>
+                                            <h3>Clean Shave</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                        <div class="service_box">
+                                            <figure><img src="images/ser.png"></figure>
+                                            <h3> Haircut Styles</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                        <div class="service_box">
+                                            <figure><img src="images/ser3.png"></figure>
+                                            <h3>Face Masking</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- end service -->
+    <!-- start pricing  -->
+    <div class="pricing" id="pricing">
+        <h2 class="main_heading">Pricing <span>Table</span></h2>
+        <div class="box">
+            <div class="left">
+                <img src="images/vvv.png" alt="">
+            </div>
+            <div class="right">
+                <div class="lists">
+                    <div class="list">
+                        <ul>
+                            <li><span class="float-left">Haircuts</span><span class="float-right">$ 35</span></li>
+                            <li><span class="float-left">Skin Fade</span><span class="float-right">$ 40</span></li>
+                            <li><span class="float-left">Buzz Cut</span><span class="float-right">$ 30</span></li>
+                            <li><span class="float-left">Classic Haircut</span><span class="float-right">$ 35</span></li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li><span class="float-left">Haircuts</span><span class="float-right">$ 35</span></li>
+                            <li><span class="float-left">Stache Trim</span><span class="float-right">$ 35</span></li>
+                            <li><span class="float-left">Beard Trim</span><span class="float-right">$ 35</span></li>
+                            <li><span class="float-left">Colouring</span><span class="float-right">$ 50</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+    <!-- end pricing  -->
+    <!-- start open  -->
+    <div class="open">
+        <h2 class="main_heading">Opening <span>Time</span></h2>
+        <div class="container">
+            <div class="lists">
+                <ul class="list">
+                    <li><span>Monday</span><span class="float-right">9:00am       <strong class="bbbb">9:00pm</strong></span></li>
+                    <li><span>Tuesday </span><span class="float-right">9:00am       <strong class="bbbb">9:00pm</strong></span></li>
+                    <li><span>Wednesday</span><span class="float-right">9:00am      <strong class="bbbb">9:00pm</strong></span></li>
+                </ul>
+                    <ul class="list">
+                        <li><span>Thursday </span><span class="float-right">9:00am       <strong class="bbbb">9:00pm</strong></span></li>
+                        <li><span>Friday</span><span class="float-right">9:00am       <strong class="bbbb">9:00pm</strong></span></li>
+                        <li><span>Saturday</span><span class="float-right">9:00am        <strong class="bbbb">9:00pm</strong></span></li>
+                        <li><span>Sunday</span><span class="float-right">Close</span> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end open  -->
+    <!-- start contact  -->
+    <div class="cont" id="cont">
+        <div class="container">
+            <div class="left">
+                <h2 class="main_heading">Request A <span>Call Back</span></h2>
+                <input type="text" name="" placeholder="Name" id="">
+                <input type="text" name="" id="" placeholder="phone number">
+                <input type="email" name="" id="" placeholder="Email">
+                <input type="date" name="" id="" placeholder="birth day">
+                <textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
+                <input type="button" value="SEND">
+            </div>
+            <div class="right">
+                <img src="images/img.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end contact  -->
+    <!-- start footer  -->
+    <footer>
+        <div class="container">
+        <div class="logoo">
+            <a href="index.html"><img src="images/logo1.png" alt=""></a>
+        </div>
+        <div class="address">
+            <h3>My data</h3>
+            <ul>
+                <li class="name">abdallah Negm</li>
+                <li>abdallahnegm5@gmail.com</li>
+                <li>00201065759651</li>
+            </ul>
+        </div>
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100006969912368" target="_blank"><i class="fa-brands fa-2x fa-facebook"></i></a>
+            <a href="https://www.instagram.com/abdallhnegm/"target="_blank"><i class="fa-brands fa-2x fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/abdallah-negm-3b1251175/"target="_blank"><i class="fa-brands fa-2x fa-linkedin"></i></a>
+            <a href="https://github.com/abdallahnegm/abdallahnegm/blob/main/README.md"target="_blank"><i class="fa-brands fa-2x fa-github"></i></a>
+        </div>
+        </div>
+    </footer>
+    <!-- end footer  -->
+    <!-- start copy right  -->
+    <div class="copyright">
+        <span>© 2023 All Rights Reserved. <a href="https://github.com/abdallahnegm/abdallahnegm/blob/main/README.md"> Abdallah Negm</a></span>
+        </div>
+    <!-- end copy right  -->
+    <script src="js/index.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="https://kit.fontawesome.com/f599573a7f.js" crossorigin="anonymous"></script>
+</body>
+</html>
